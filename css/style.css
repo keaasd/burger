@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.container {
+    min-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    color: #FAF9F9;
+    flex: 0 0 580px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+
+}
+
+.main {
+    display: flex;
+    width: 1920px;
+    height: 862px;
+    background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
+    position: relative;
+}
+
+.visual {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.bg {
+    width: 432px;
+    height: 100%;
+    background: linear-gradient(2.42deg, #F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+
+.button {
+    padding: 20px 45px;    
+    font-weight: 700px;
+    color: #1E2F40;
+    background: #FBB731;
+    border-radius: 5px;
+    font-size: 14px; 
+    Line-height: 18px;    
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; /* чтобы не наехала на другой текст */
+    
+
+
+}
+h1 span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FBB731;
+    display: block;
+    margin-bottom: 10px;
+}
+.h1 {
+    width: 580px;    
+    text-transform: uppercase;
+    line-height: 140px;
+    font-size: 120px;
+    margin-bottom: 40px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+    color: #DEDEDE;
+    margin-bottom: 42px;
+}
+
+img {
+    width: 829px;
+    position: absolute;
+    z-index: 2;
+    right: -168px;
+    
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
