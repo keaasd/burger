@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    min-width: 1180px;
+    max-width: 1380px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body {
    
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);  
 	display: flex;
-    width: 1920px;
+    width: 1320px;
     height: 862px;
     position: relative; 
 	   
