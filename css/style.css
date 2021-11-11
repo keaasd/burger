@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
 }
+html {
+    overflow-x: hidden;
 
+}
 body {
     font-family: 'Nunito Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
-    max-width: 1380px;
+    max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -26,7 +30,7 @@ body {
    
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);  
 	display: flex;
-    width: 1320px;
+    width: 1349px;
     height: 862px;
     position: relative; 
 	   
@@ -132,10 +136,10 @@ h1 span {
     margin-bottom: 8px;
 }
 .description {
-    color: #000;
+    color: #FAF9F9;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
-    line-height: 24;
+    line-height: 24px;
 }
 
 .promo-left .description {
